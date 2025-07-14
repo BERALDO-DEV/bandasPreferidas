@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="menus.css">
+</head>
+<body>
+    <div class="capa" style="background-image: url(imagens.img/PEARL\ JAM.png); background-position: center; opacity: 0.9; background-size: cover">
+        <div class="titulo">
+            <h1>
+                PEARL JAM
+            </h1>
+        </div>
+        <div class="subtitulo">
+            <H3>"Why do they always send the poor?"</H3>
+        </div>
+        <div class="menu">
+            <div class="home">
+                <a href="principal.html">HOME</a>
+            </div>
+            <div class="bandas">
+                <a href="SOAD.html">SOAD</a>
+                <a href="creed.html">CREED</a>
+                <a href="peralJam.html">PEARL JAM</a>
+                <a href="EricClapton.html">ERIC CLAPTON</a>
+            </div> 
+        </div>   
+
+    </div>
+
+    <div class="corpo">
+        <div class="informacoes">
+            <div class="sobre">
+                <h1  style="font-size: 70px; background-color: white;">SOBRE</h1>
+            </div>
+            <div class="resumo">
+                <p>Pearl Jam surgiu em 1990, em Seattle, e se tornou um dos maiores nomes do movimento grunge, ao lado de Nirvana, Soundgarden e Alice in Chains. O primeiro álbum, "Ten" (1991), foi um sucesso imediato, com clássicos como "Alive", "Even Flow" e "Black".</p>
+            </div>
+            <div class="item">
+                <h1>Nacionalidade:</h1>
+                 <p>Estados Unidos – Seattle, Washington</p>
+            </div>
+
+             <div class="item">
+                <h1>Gênero:</h1>
+                 <p>Grunge; Rock alternativo; Hard rock</p>
+            </div>
+
+             <div class="item">
+                <h1>Formação:</h1>
+                 <p>1990</p>
+            </div>
+
+             <div class="item">
+                <h1>Integrantes:</h1>
+                    <p class="integrantes"> Eddie Vedder – vocais, guitarra rítmica<br>
+                                            Stone Gossard – guitarra rítmica<br>
+                                            Mike McCready – guitarra solo<br>
+                                            Jeff Ament – baixo<br>
+                                            Matt Cameron – bateria (desde 1998; também tocou no Soundgarden)
+                    </p>
+            </div>
+
+             <div class="item">
+                <h1>Principais Albuns:</h1>
+                    <p class="principal-albim"> Ten – 1991 (primeiro álbum)<br>
+                                                Vs. – 1993<br>
+                                                Vitalogy – 1994<br>
+                                                Yield – 1998<br>
+                    </p>
+            </div>
+         
+             
+        </div>
+
+      
+        <div class="carrosel">
+            <button class="esquerda" id="left" onclick="mudarEsquerda()"></button>
+                
+                <div class="carrossel">
+                    <div class="album" id="album">
+
+                        <div class="musica">
+                            <img src="img1.jpg" alt="Imagem 1" style="background-color: yellowgreen;">
+                            
+                            <div class="descricao">
+                                <h1>Ten</h1>
+                                <p class="ano">1991 (primeiro álbum)</p>
+                            </div>
+                        </div>
+                        <div class="musica">
+                            <img src="img1.jpg" alt="Imagem 1" style="background-color: red;">
+                            
+                            <div class="descricao">
+                                <h1>Vs.</h1>
+                                <p class="ano">1993</p>
+                            </div>
+                        </div>
+                        <div class="musica">
+                            <img src="img1.jpg" alt="Imagem 1" style="background-color: orange;">
+                            
+                            <div class="descricao">
+                                <h1>Vitalogy</h1>
+                                <p class="ano">1994</p>
+                            </div>
+                        </div>
+                        <div class="musica">
+                            <img src="img1.jpg" alt="Imagem 1" style="background-color: grey;">
+                            
+                            <div class="descricao">
+                                <h1>Yield</h1>
+                                <p class="ano">1998</p>
+                            </div>
+                        </div>
+                    </div> 
+
+                        
+                    
+                </div>    
+            <button class="direita" id="right" onclick="mudarDireita()"></button>
+        </div>
+    </div>
+    
+    <script src="interacao.js"></script>
+</body>
+</html>

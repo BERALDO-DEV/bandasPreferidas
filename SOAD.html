@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="menus.css">
+</head>
+<body>
+    <div class="capa" style="background-image: url(imagens.img/SOAD.png); background-position: center; opacity: 0.9; background-size: cover">
+        <div class="titulo">
+            <h1>
+                SYSTEM OF DOWN
+            </h1>
+        </div>
+        <div class="subtitulo">
+            <H3>"Why do they always send the poor?"</H3>
+        </div>
+        <div class="menu">
+            <div class="home">
+                <a href="principal.html">HOME</a>
+            </div>
+            <div class="bandas">
+                <a href="SOAD.html">SOAD</a>
+                <a href="creed.html">CREED</a>
+                <a href="peralJam.html">PEARL JAM</a>
+                <a href="EricClapton.html">ERIC CLAPTON</a>
+            </div> 
+        </div>   
+
+    </div>
+
+    <div class="corpo">
+        <div class="informacoes">
+            <div class="sobre">
+                <h1  style="font-size: 70px; background-color: white;">SOBRE</h1>
+            </div>
+            <div class="resumo">
+                <p>System of a Down é uma banda norte-americana de metal alternativo, formada em 1994, na cidade de Glendale, Califórnia. Todos os integrantes têm origem armênia, e a banda é conhecida por unir metal pesado, música folclórica do Oriente Médio, punk e rock progressivo com letras fortemente políticas e sociais.</p>
+            </div>
+            <div class="item">
+                <h1>Nacionalidade:</h1>
+                 <p>Glendale, Califórnia</p>
+            </div>
+
+             <div class="item">
+                <h1>Gênero:</h1>
+                 <p>Metal pesado, música folclórica do Oriente Médio, punk e rock</p>
+            </div>
+
+             <div class="item">
+                <h1>Formação:</h1>
+                 <p>1994</p>
+            </div>
+
+             <div class="item">
+                <h1>Integrantes:</h1>
+                    <p class="integrantes">Serj Tankian – vocais principais, teclado<br>
+                        Daron Malakian – guitarra, vocais<br>
+                        Shavo Odadjian – baixo<br>
+                        John Dolmayan – bateria<br>
+                    </p>
+            </div>
+
+             <div class="item">
+                <h1>Principais Albuns:</h1>
+                    <p class="principal-albim">System of a Down – 1998 (primeiro álbum)<br>
+                        Toxicity – 2001<br>
+                        Steal This Album! – 2002<br>
+                        Mezmerize – 2005<br>
+                    </p>
+            </div>
+         
+             
+        </div>
+
+      
+        <div class="carrosel">
+            <button class="esquerda" id="left" onclick="mudarEsquerda()"></button>
+                
+                <div class="carrossel">
+                    <div class="album" id="album">
+
+                        <div class="musica">
+                            <img src="img1.jpg" alt="Imagem 1" style="background-color: yellowgreen;">
+                            
+                            <div class="descricao">
+                                <h1>System of a Down</h1>
+                                <p class="ano">1998 (primeiro álbum)</p>
+                            </div>
+                        </div>
+                        <div class="musica">
+                            <img src="img1.jpg" alt="Imagem 1" style="background-color: red;">
+                            
+                            <div class="descricao">
+                                <h1>Toxicity</h1>
+                                <p class="ano">2001</p>
+                            </div>
+                        </div>
+                        <div class="musica">
+                            <img src="img1.jpg" alt="Imagem 1" style="background-color: orange;">
+                            
+                            <div class="descricao">
+                                <h1>Steal This Album!</h1>
+                                <p class="ano">2002</p>
+                            </div>
+                        </div>
+                        <div class="musica">
+                            <img src="img1.jpg" alt="Imagem 1" style="background-color: grey;">
+                            
+                            <div class="descricao">
+                                <h1>Mezmerize</h1>
+                                <p class="ano">2005</p>
+                            </div>
+                        </div>
+                    </div> 
+
+                        
+                    
+                </div>    
+            <button class="direita" id="right" onclick="mudarDireita()"></button>
+        </div>
+    </div>
+    
+    <script src="interacao.js"></script>
+</body>
+</html>

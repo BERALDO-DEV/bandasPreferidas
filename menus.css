@@ -1,0 +1,196 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+
+
+.capa{
+    
+    width: 100%;
+    height: 400px;
+    position: relative;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.titulo{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+   
+}
+
+.subtitulo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    
+}
+
+.menu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: absolute; bottom: 0;
+   
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+a:hover{
+    border-top: 1px solid black;
+    transition-duration: 0.6s;
+    
+}
+
+.home{
+    width: 20%;
+    display: flex;
+    padding-left: 5%;
+}
+
+.bandas{
+    width: 80%;
+    height:auto;
+    text-align: justify;
+    display: flex;
+    justify-content: right;
+    gap: 80px;
+    padding-right: 5%;
+    
+}
+
+.corpo{
+    margin-top: 5px;
+    width: 100%;
+    height:1000px; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: center ;
+}
+
+
+.resumo{
+    font-size: 40px;
+    padding: 40px;
+}
+
+.informacoes{
+    width: 65%;
+    height:100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.informacoes h1{
+    margin: 10px;
+    width: auto;
+    height: max-content;
+    background-color: rgb(185, 183, 183);
+   
+}
+
+.informacoes div{
+    display: flex;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.item p{
+    margin: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.carrosel{
+    width: 35%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.esquerda{
+    height: 40px;
+    width: 40px;
+    margin: 40px;
+    border-radius: 100px;
+    background-color: black;
+}
+
+.esquerda:hover{
+
+    cursor: grab;
+    height: 60px;
+    transition-duration: 0.5s;
+}
+
+.direita{
+   height: 40px;
+    width: 40px;
+    margin: 40px;
+    border-radius: 100px;
+    background-color: black;
+}
+
+.direita:hover{
+
+    cursor: grab;
+    height: 60px;
+    transition-duration: 0.5s;
+}
+
+
+
+.carrossel{
+    height: max-content;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.album{
+    width:300px;
+    height: auto;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    
+}
+
+.album img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  display: flex;
+  
+}
+
+
+.descricao{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.integrantes{
+    text-align: left;
+}
+
